@@ -10,16 +10,18 @@ const Hero = () => {
         delaySpeed: 8000,
     });
   return (
-    <div className='items-center flex flex-col lg:flex-row space-x-4 space-y-2'>
-      <div className=" relative h-48 w-full lg:w-1/2 text-5xl font-semibold px-2 bg-red-800 justify-center">
+    <div className='flex flex-col space-y-2 h-[200px]'>
+      <div className="relative h-full w-full text-5xl font-semibold px-2 bg-[rgb(255,136,106)] flex flex-col space-y-14">
         <div className="mr-3 font-logo text-white pt-5">{text}</div>
-        <div className=' font-oswald italic text-3xl text-white p-4 absolute bottom-0 right-0'>2023</div>
-      </div>
-      <div className="px-4 py-4 space-y-4 text-center lg:text-left"> 
-          <p className='font-oswald text-xl'>Welcome to the Book Club!</p>
-          <p className='font-oswald text-xl'>Browse the 2023 reading list or add your own.</p>
+       
+        <div className=' font-oswald italic text-3xl w-full text-white p-4 absolute bottom-0 right-0 flex items-center justify-between'> <div className="text-xl text-white">  
+          Welcome to the Book Club! Browse the 2023 reading list or add your own.
         
       </div>
+      <div>2023</div>
+      </div>
+      </div>
+      
     </div>
   )
 }

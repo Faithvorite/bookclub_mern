@@ -4,6 +4,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'bridge': "url('https://i.imgur.com/CoQnIbZ.png')",
+      },
       screens: {
         xs: '480px',
       },
