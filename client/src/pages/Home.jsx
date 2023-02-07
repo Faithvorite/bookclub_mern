@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { BookList, Hero } from '../components'
 import { bridge } from '../assets'
 //Header => Logo > Add Books
-//Home => Hero > BookClub books
+//Add books => Book review form
+//Home => Hero > BookList >Card
 
 const Home = () => {
   return (
